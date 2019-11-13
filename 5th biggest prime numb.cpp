@@ -6,9 +6,8 @@ int main(){
 	int i=n-1;
 	
 	for(n;n>1;n--){
-		for(i;i>1;i--){
+		for(i=n-1;i>1;i--){
 			if(n%i==0){
-				i=n-1;
 				break;
 			}
 		}
